@@ -3,7 +3,7 @@
 :root {
     --clr-black: #f4f4f4ee;
     --clr-gray: #000000f1;
-    --clr-white: #1d0d8199;
+    --clr-white: #1c0d8188;
 
     --type-normal: #b8b847;
     --type-fire: #eb6a0e;
@@ -50,7 +50,7 @@ body {
 
 header {
     padding-block: 1rem;
-    box-shadow: 0 0 2rem -1rem rgba(244, 23, 23, 0.744);
+    box-shadow: 0 0 2rem -1rem rgba(23, 244, 178, 0.744);
 }
 
 .nav {
@@ -77,13 +77,13 @@ header {
     cursor: pointer;
     text-transform: uppercase;
     font-weight: 600;
-    box-shadow: 0 0 1rem rgba(246, 42, 42, 0.25);
+    box-shadow: 0 0 1rem rgba(42, 154, 246, 0.571);
     transition: .2s;
 }
 
 .btn-header:hover {
     transform: scale(1.1);
-    box-shadow: 0 0 2rem rgba(221, 6, 6, 0.25);
+    box-shadow: 0 0 2rem rgba(17, 6, 221, 0.539);
 }
 
 main {
@@ -113,7 +113,7 @@ main {
 .pokemon {
     border-radius: 1rem;
     background-color: var(--clr-white);
-    box-shadow: 0 0 3rem -1rem rgba(0, 0, 0, .25);
+    box-shadow: 0 0 3rem -1rem rgba(12, 66, 148, 0.5);
     padding-block: 1rem;
     text-transform: uppercase;
     position: relative;
